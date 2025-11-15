@@ -1,0 +1,85 @@
+/*
+ * style_detail_aesthetic.css
+ * File CSS eksternal untuk biodata detail aesthetic
+ */
+
+/* Style untuk keseluruhan Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #bdafb4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style untuk Kotak Biodata (Container) */
+.container {
+    width: 90%;
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 35px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    border: 2px solid #E0BBE4;
+}
+
+/* Style untuk Judul Utama */
+h1 {
+    color: #6A5ACD;
+    text-align: center;
+    border-bottom: 4px solid #957DAD;
+    padding-bottom: 18px;
+    margin-bottom: 35px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+/* Style untuk Setiap Baris Informasi */
+.info-item {
+    margin: 18px 0;
+    font-size: 16px;
+    border-left: 5px solid #E0BBE4;
+    padding-left: 20px;
+}
+
+/* Style untuk Label (misalnya: Nama:, NPM:) */
+.label {
+    font-weight: 600;
+    color: #3C3C3C;
+    display: inline-block;
+    min-width: 150px;
+    vertical-align: top;
+}
+
+/* Style untuk Value (Isi Informasi) */
+.value {
+    color: #5A5A5A;
+    display: inline-block;
+    width: calc(100% - 160px);
+}
+
+/* Style Khusus untuk NPM/NIM */
+.npm {
+    color: #6A5ACD;
+    font-weight: 700;
+}
+
+/* Style untuk Sub Judul (Kontak & Alamat) */
+h2 {
+    color: #6A5ACD;
+    margin-top: 40px;
+    font-size: 22px;
+    border-top: 1px dashed #E0BBE4;
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+/* Style untuk Catatan Kaki */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #AAAAAA;
+    font-size: 14px;
+    padding-top: 10px;
+    border-top: 1px solid #F0F0FF;
+}
